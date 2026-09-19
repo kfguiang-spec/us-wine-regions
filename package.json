@@ -10,7 +10,7 @@
     "preview": "vite preview",
     "fetch:climate": "node scripts/fetch-climate.mjs",
     "build:pages": "VITE_BASE=/us-wine-regions/ tsc -b && VITE_BASE=/us-wine-regions/ vite build",
-    "deploy": "npm run build:pages && gh-pages -d dist"
+    "deploy": "npm run build:pages && node scripts/deploy-pages.mjs"
   },
   "dependencies": {
     "react": "^19.2.8",
