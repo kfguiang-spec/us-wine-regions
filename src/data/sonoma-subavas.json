@@ -1,0 +1,90 @@
+[
+  {
+    "id": "sonoma-russian-river",
+    "parentId": "sonoma",
+    "name": "Russian River Valley",
+    "station": "Healdsburg",
+    "lat": 38.6102,
+    "lon": -122.8694,
+    "blurb": "Cool fog-influenced AVA; Pinot Noir and Chardonnay are signatures, with Green Valley as a cooler nested AVA.",
+    "red": ["Pinot Noir", "Zinfandel", "Syrah"],
+    "white": ["Chardonnay", "Sauvignon Blanc"]
+  },
+  {
+    "id": "sonoma-alexander",
+    "parentId": "sonoma",
+    "name": "Alexander Valley",
+    "station": "Geyserville",
+    "lat": 38.7113,
+    "lon": -122.9011,
+    "blurb": "Warmer northern Sonoma valley along the Russian River; Cabernet Sauvignon leads, with Merlot and Chardonnay.",
+    "red": ["Cabernet Sauvignon", "Merlot", "Zinfandel"],
+    "white": ["Chardonnay", "Sauvignon Blanc"]
+  },
+  {
+    "id": "sonoma-dry-creek",
+    "parentId": "sonoma",
+    "name": "Dry Creek Valley",
+    "station": "Healdsburg (Dry Creek)",
+    "lat": 38.6585,
+    "lon": -122.9253,
+    "blurb": "Classic Zinfandel AVA west of Healdsburg; also Cabernet and Sauvignon Blanc. Warm days, cooling evening breezes.",
+    "red": ["Zinfandel", "Cabernet Sauvignon", "Petite Sirah"],
+    "white": ["Sauvignon Blanc", "Chardonnay"]
+  },
+  {
+    "id": "sonoma-valley",
+    "parentId": "sonoma",
+    "name": "Sonoma Valley",
+    "station": "Sonoma",
+    "lat": 38.2919,
+    "lon": -122.458,
+    "blurb": "Historic valley from Carneros north past Sonoma town; Cabernet, Pinot, Chardonnay, and Zinfandel. Home of Buena Vista (1857).",
+    "red": ["Cabernet Sauvignon", "Pinot Noir", "Zinfandel", "Merlot"],
+    "white": ["Chardonnay", "Sauvignon Blanc"]
+  },
+  {
+    "id": "sonoma-coast",
+    "parentId": "sonoma",
+    "name": "Sonoma Coast",
+    "station": "Bodega Bay",
+    "lat": 38.3332,
+    "lon": -123.0481,
+    "blurb": "Broad cool-climate AVA hugging the Pacific; Pinot Noir and Chardonnay in windy, foggy sites (includes parts overlapping other AVAs).",
+    "red": ["Pinot Noir", "Syrah"],
+    "white": ["Chardonnay"]
+  },
+  {
+    "id": "sonoma-knights",
+    "parentId": "sonoma",
+    "name": "Knights Valley",
+    "station": "Calistoga (west)",
+    "lat": 38.62,
+    "lon": -122.66,
+    "blurb": "Warm inland AVA between Alexander Valley and Napa’s Calistoga; Cabernet-focused mountain/valley sites.",
+    "red": ["Cabernet Sauvignon", "Merlot", "Malbec"],
+    "white": ["Sauvignon Blanc", "Chardonnay"]
+  },
+  {
+    "id": "sonoma-green-valley",
+    "parentId": "sonoma",
+    "name": "Green Valley of Russian River",
+    "station": "Sebastopol",
+    "lat": 38.4021,
+    "lon": -122.8258,
+    "blurb": "Cool nested AVA in western Russian River Valley; Pinot Noir and Chardonnay, often for sparkling base wines.",
+    "red": ["Pinot Noir"],
+    "white": ["Chardonnay", "Pinot Meunier"]
+  },
+  {
+    "id": "sonoma-chalk-hill",
+    "parentId": "sonoma",
+    "name": "Chalk Hill",
+    "station": "Windsor",
+    "lat": 38.5471,
+    "lon": -122.8164,
+    "blurb": "Northeast of Santa Rosa; volcanic ash/chalky soils, Chardonnay and Sauvignon Blanc with some Cabernet.",
+    "red": ["Cabernet Sauvignon", "Merlot"],
+    "white": ["Chardonnay", "Sauvignon Blanc"]
+  }
+]

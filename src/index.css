@@ -1,0 +1,498 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background: #fff;
+  color: #111;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: #111;
+  text-underline-offset: 0.15em;
+}
+
+a:hover,
+a:focus-visible {
+  text-decoration-thickness: 2px;
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid #111;
+  outline-offset: 2px;
+}
+
+button {
+  font: inherit;
+  color: inherit;
+  background: transparent;
+  border: 1px solid #ccc;
+  border-radius: 0;
+  padding: 0.25rem 0.55rem;
+  cursor: pointer;
+}
+
+button.active {
+  border-color: #111;
+  background: #111;
+  color: #fff;
+}
+
+button:hover:not(.active):not(.region-row) {
+  border-color: #111;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  min-height: 100dvh;
+}
+
+.header {
+  padding: 1rem 1.25rem 0.75rem;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.header-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.75rem 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+h1 {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+h2 {
+  margin: 0 0 0.5rem;
+  font-size: 1.15rem;
+  font-weight: 400;
+}
+
+h3 {
+  margin: 1.25rem 0 0.4rem;
+  font-size: 0.95rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+h4 {
+  margin: 0 0 0.35rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.tagline {
+  margin: 0;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.toolbar {
+  font-size: 0.9rem;
+}
+.header-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem 1.25rem;
+}
+
+.unit-toggle {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.9rem;
+}
+
+.list-units {
+  margin: 0 0 0.5rem;
+  font-size: 0.8rem;
+}
+
+
+.sep {
+  margin: 0 0.4rem;
+  color: #aaa;
+}
+
+.muted {
+  color: #666;
+}
+
+.error {
+  color: #a00;
+}
+
+.banner {
+  margin: 0;
+  padding: 0.5rem 1.25rem;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.main {
+  flex: 1;
+  display: grid;
+  grid-template-columns: minmax(220px, 1fr) minmax(260px, 1fr) minmax(280px, 1.1fr);
+  gap: 0;
+  min-height: 0;
+}
+
+@media (max-width: 960px) {
+  .main {
+    grid-template-columns: 1fr;
+  }
+}
+
+.map-panel,
+.list-panel,
+.detail {
+  padding: 1rem 1.25rem;
+  border-right: 1px solid #e5e5e5;
+  min-height: 0;
+}
+
+.detail {
+  border-right: none;
+}
+
+.france-map {
+  width: 100%;
+  max-width: 380px;
+  height: auto;
+  display: block;
+}
+
+.france-outline {
+  pointer-events: none;
+}
+
+.map-label {
+  pointer-events: none;
+  user-select: none;
+}
+
+.map-hint {
+  margin: 0.75rem 0 0;
+  font-size: 0.85rem;
+}
+
+.list-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem;
+  margin-bottom: 0.75rem;
+  font-size: 0.85rem;
+}
+
+.region-list ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.region-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 0.75rem;
+  width: 100%;
+  text-align: left;
+  border: none;
+  border-bottom: 1px solid #eee;
+  padding: 0.55rem 0.15rem;
+  background: transparent;
+}
+
+.region-row:hover {
+  background: #fafafa;
+}
+
+.region-row.selected {
+  background: #f0f0f0;
+  font-weight: 700;
+}
+
+.region-name .fr {
+  font-weight: 400;
+}
+
+.temps {
+  font-variant-numeric: tabular-nums;
+  font-size: 0.9rem;
+  white-space: nowrap;
+  color: #333;
+}
+
+.blurb {
+  margin: 0 0 0.5rem;
+}
+
+.temp-dl {
+  margin: 0;
+}
+
+.temp-dl > div {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 0.5rem 1rem;
+  padding: 0.35rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+.temp-dl dt {
+  margin: 0;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.temp-dl dd {
+  margin: 0;
+  font-variant-numeric: tabular-nums;
+  text-align: right;
+}
+
+.data-note {
+  margin: 0.5rem 0 0;
+  font-size: 0.85rem;
+}
+
+.grape-cols {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+.grape-cols ul {
+  margin: 0;
+  padding-left: 1.1rem;
+}
+
+.footer {
+  border-top: 1px solid #e5e5e5;
+  padding: 0.85rem 1.25rem 1.25rem;
+  font-size: 0.8rem;
+  color: #444;
+}
+
+.footer p {
+  margin: 0.25rem 0;
+}
+
+.footer code {
+  font-size: 0.85em;
+}
+
+
+.breadcrumb {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem 0.55rem;
+  margin: 0.35rem 0 0.65rem;
+  font-size: 0.9rem;
+}
+
+button.linkish {
+  border: none;
+  padding: 0;
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+  background: transparent;
+}
+
+button.linkish:hover {
+  text-decoration-thickness: 2px;
+}
+
+.back-btn {
+  margin-left: 0.5rem;
+  font-size: 0.85rem;
+}
+
+.explore-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.65rem;
+  margin: 0.75rem 0 0.25rem;
+}
+
+.explore-btn {
+  border-color: #111;
+  background: #111;
+  color: #fff;
+  padding: 0.4rem 0.75rem;
+}
+
+.explore-btn:hover {
+  background: #333;
+  border-color: #333;
+}
+
+.explore-hint {
+  font-size: 0.85rem;
+}
+
+.drill-hint {
+  font-weight: 400;
+}
+
+.region-map {
+  width: 100%;
+  max-width: 520px;
+  height: auto;
+  display: block;
+}
+
+.main-wineries {
+  grid-template-columns: 1fr minmax(260px, 0.6fr);
+}
+
+.winery-main {
+  border-right: 1px solid #e5e5e5;
+  max-height: calc(100dvh - 200px);
+  overflow: auto;
+}
+
+button.linkish.current {
+  font-weight: 700;
+  text-decoration: none;
+  cursor: default;
+}
+
+.explore-btn.secondary {
+  background: #fff;
+  color: #111;
+  border-color: #111;
+}
+
+.explore-btn.secondary:hover {
+  background: #f5f5f5;
+}
+
+.check-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  margin-left: 0.5rem;
+  font-size: 0.85rem;
+}
+
+.histogram {
+  margin: 0.5rem 0 1rem;
+}
+
+.hist-row {
+  display: grid;
+  grid-template-columns: 4.5rem 1fr 2rem;
+  gap: 0.5rem;
+  align-items: center;
+  margin: 0.2rem 0;
+  font-size: 0.85rem;
+}
+
+.hist-label {
+  font-variant-numeric: tabular-nums;
+  color: #444;
+}
+
+.hist-bar-wrap {
+  background: #f3f3f3;
+  height: 14px;
+}
+
+.hist-bar {
+  height: 100%;
+  min-width: 2px;
+}
+
+.hist-count {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+.band-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1rem;
+  margin: 0 0 1rem;
+  font-size: 0.8rem;
+}
+
+.band-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.swatch {
+  width: 12px;
+  height: 12px;
+  border: 1px solid #111;
+  display: inline-block;
+}
+
+.winery-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.winery-row {
+  display: flex;
+  gap: 0.75rem;
+  padding: 0.45rem 0;
+  border-bottom: 1px solid #eee;
+  align-items: flex-start;
+}
+
+.winery-year {
+  flex: 0 0 3.2rem;
+  font-variant-numeric: tabular-nums;
+  font-weight: 700;
+  border-left: 3px solid #ccc;
+  padding-left: 0.4rem;
+}
+
+.winery-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+  min-width: 0;
+}
+
+.winery-name {
+  font-weight: 400;
+}
+
+.winery-meta {
+  font-size: 0.8rem;
+}
+
+.detail code {
+  font-size: 0.85em;
+}

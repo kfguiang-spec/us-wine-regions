@@ -1,0 +1,30 @@
+{
+  "name": "us-wine-regions",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "oxlint",
+    "preview": "vite preview",
+    "fetch:climate": "node scripts/fetch-climate.mjs",
+    "build:pages": "VITE_BASE=/us-wine-regions/ tsc -b && VITE_BASE=/us-wine-regions/ vite build",
+    "deploy": "npm run build:pages && gh-pages -d dist"
+  },
+  "dependencies": {
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  },
+  "devDependencies": {
+    "@types/node": "^24.13.3",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.7",
+    "@vitejs/plugin-react": "^6.1.1",
+    "gh-pages": "^6.3.0",
+    "oxlint": "^1.81.0",
+    "typescript": "~6.0.2",
+    "vite": "^8.3.0"
+  },
+  "description": "US wine regions: Open-Meteo climate + typical grapes + Napa/Sonoma winery timeline"
+}

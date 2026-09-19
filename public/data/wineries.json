@@ -1,0 +1,1351 @@
+{
+  "fetched_at": "2026-09-19T20:22:54Z",
+  "methodology": "Wikipedia category members for Napa Valley and Sonoma County wineries; Wikidata P571 (inception) via wbgetentities when a sitelink QID exists. Years never invented; null if missing. Additional years from Wikipedia REST summary only when extract explicitly states founded/established year.",
+  "attribution": "Wikipedia / Wikidata CC BY-SA",
+  "wineries": [
+    {
+      "id": "Q123162025",
+      "name": "Sebastiani Vineyards and Winery",
+      "wikipedia_title": "Sebastiani Vineyards and Winery",
+      "year": null,
+      "regions": [
+        "sonoma"
+      ],
+      "source": null,
+      "wikidata_url": "https://www.wikidata.org/wiki/Q123162025",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Sebastiani_Vineyards_and_Winery"
+    },
+    {
+      "id": "Q49226",
+      "name": "Buena Vista Winery",
+      "wikipedia_title": "Buena Vista Winery",
+      "year": 1857,
+      "regions": [
+        "sonoma"
+      ],
+      "source": "wikidata:P571",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q49226",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Buena_Vista_Winery"
+    },
+    {
+      "id": "Q5618640",
+      "name": "Gundlach Bundschu",
+      "wikipedia_title": "Gundlach Bundschu",
+      "year": 1858,
+      "regions": [
+        "sonoma"
+      ],
+      "source": "wikidata:P571",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q5618640",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Gundlach_Bundschu"
+    },
+    {
+      "id": "Q18753758",
+      "name": "Charles Krug Winery",
+      "wikipedia_title": "Charles Krug Winery",
+      "year": 1861,
+      "regions": [
+        "napa"
+      ],
+      "source": "wikipedia-rest-summary",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q18753758",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Charles_Krug_Winery"
+    },
+    {
+      "id": "Q4891843",
+      "name": "Beringer Vineyards",
+      "wikipedia_title": "Beringer Vineyards",
+      "year": 1876,
+      "regions": [
+        "napa"
+      ],
+      "source": "wikipedia-rest-summary",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q4891843",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Beringer_Vineyards"
+    },
+    {
+      "id": "Q2287130",
+      "name": "Simi Winery",
+      "wikipedia_title": "Simi Winery",
+      "year": 1876,
+      "regions": [
+        "sonoma"
+      ],
+      "source": "wikidata:P571",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q2287130",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Simi_Winery"
+    },
+    {
+      "id": "Q16996940",
+      "name": "Inglenook",
+      "wikipedia_title": "Inglenook (winery)",
+      "year": 1879,
+      "regions": [
+        "napa"
+      ],
+      "source": "wikidata:P571",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q16996940",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Inglenook_%28winery%29"
+    },
+    {
+      "id": "Q116766",
+      "name": "Chateau Montelena",
+      "wikipedia_title": "Chateau Montelena",
+      "year": 1882,
+      "regions": [
+        "napa"
+      ],
+      "source": "wikidata:P571",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q116766",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Chateau_Montelena"
+    },
+    {
+      "id": "Q6431472",
+      "name": "Korbel Champagne Cellars",
+      "wikipedia_title": "Korbel Champagne Cellars",
+      "year": 1882,
+      "regions": [
+        "sonoma"
+      ],
+      "source": "wikidata:P571",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q6431472",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Korbel_Champagne_Cellars"
+    },
+    {
+      "id": "Q109300023",
+      "name": "Spottswoode Winery",
+      "wikipedia_title": "Spottswoode Winery",
+      "year": 1882,
+      "regions": [
+        "napa"
+      ],
+      "source": "wikipedia-rest-summary",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q109300023",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Spottswoode_Winery"
+    },
+    {
+      "id": "Q7580642",
+      "name": "Spring Mountain Vineyard",
+      "wikipedia_title": "Spring Mountain Vineyard",
+      "year": 1884,
+      "regions": [
+        "napa"
+      ],
+      "source": "wikidata:P571",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q7580642",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Spring_Mountain_Vineyard"
+    },
+    {
+      "id": "Q96377786",
+      "name": "Far Niente Winery",
+      "wikipedia_title": "Far Niente Winery",
+      "year": 1885,
+      "regions": [
+        "napa"
+      ],
+      "source": "wikipedia-rest-summary",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q96377786",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Far_Niente_Winery"
+    },
+    {
+      "id": "Q7906244",
+      "name": "V. Sattui Winery",
+      "wikipedia_title": "V. Sattui Winery",
+      "year": 1885,
+      "regions": [
+        "napa"
+      ],
+      "source": "wikipedia-rest-summary",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q7906244",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/V._Sattui_Winery"
+    },
+    {
+      "id": "Q6796775",
+      "name": "Mayacamas Vineyards",
+      "wikipedia_title": "Mayacamas Vineyards",
+      "year": 1889,
+      "regions": [
+        "napa"
+      ],
+      "source": "wikidata:P571",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q6796775",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Mayacamas_Vineyards"
+    },
+    {
+      "id": "Q2893208",
+      "name": "Beaulieu Vineyard",
+      "wikipedia_title": "Beaulieu Vineyard",
+      "year": 1900,
+      "regions": [
+        "napa"
+      ],
+      "source": "wikidata:P571",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q2893208",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Beaulieu_Vineyard"
+    },
+    {
+      "id": "Q5651472",
+      "name": "Hanzell Vineyards",
+      "wikipedia_title": "Hanzell Vineyards",
+      "year": 1948,
+      "regions": [
+        "sonoma"
+      ],
+      "source": "wikidata:P571",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q5651472",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Hanzell_Vineyards"
+    },
+    {
+      "id": "Q7619562",
+      "name": "Stony Hill Vineyard",
+      "wikipedia_title": "Stony Hill Vineyard",
+      "year": 1952,
+      "regions": [
+        "napa"
+      ],
+      "source": "wikidata:P571",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q7619562",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Stony_Hill_Vineyard"
+    },
+    {
+      "id": "Q28451005",
+      "name": "Rodney Strong Vineyards",
+      "wikipedia_title": "Rodney Strong Vineyards",
+      "year": 1959,
+      "regions": [
+        "sonoma"
+      ],
+      "source": "wikipedia-rest-summary",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q28451005",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Rodney_Strong_Vineyards"
+    },
+    {
+      "id": "Q14684271",
+      "name": "Windsor Vineyards",
+      "wikipedia_title": "Windsor Vineyards",
+      "year": 1959,
+      "regions": [
+        "sonoma"
+      ],
+      "source": "wikidata:P571",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q14684271",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Windsor_Vineyards"
+    },
+    {
+      "id": "Q5701158",
+      "name": "Heitz Wine Cellars",
+      "wikipedia_title": "Heitz Wine Cellars",
+      "year": 1961,
+      "regions": [
+        "napa"
+      ],
+      "source": "wikidata:P571",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q5701158",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Heitz_Wine_Cellars"
+    },
+    {
+      "id": "Q7432798",
+      "name": "Schramsberg Vineyards",
+      "wikipedia_title": "Schramsberg Vineyards",
+      "year": 1965,
+      "regions": [
+        "napa"
+      ],
+      "source": "wikidata:P571",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q7432798",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Schramsberg_Vineyards"
+    },
+    {
+      "id": "Q135246281",
+      "name": "Chappellet Vineyard",
+      "wikipedia_title": "Chappellet Vineyard",
+      "year": 1967,
+      "regions": [
+        "napa"
+      ],
+      "source": "wikidata:P571",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q135246281",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Chappellet_Vineyard"
+    },
+    {
+      "id": "Q7837768",
+      "name": "Trefethen Vineyards",
+      "wikipedia_title": "Trefethen Vineyards",
+      "year": 1968,
+      "regions": [
+        "napa"
+      ],
+      "source": "wikidata:P571",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q7837768",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Trefethen_Vineyards"
+    },
+    {
+      "id": "Q3496351",
+      "name": "Stag's Leap Wine Cellars",
+      "wikipedia_title": "Stag's Leap Wine Cellars",
+      "year": 1970,
+      "regions": [
+        "napa"
+      ],
+      "source": "wikidata:P571",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q3496351",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Stag%27s_Leap_Wine_Cellars"
+    },
+    {
+      "id": "Q7544919",
+      "name": "Smith-Madrone Vineyards and Winery",
+      "wikipedia_title": "Smith-Madrone Vineyards and Winery",
+      "year": 1971,
+      "regions": [
+        "napa"
+      ],
+      "source": "wikipedia-rest-summary",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q7544919",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Smith-Madrone_Vineyards_and_Winery"
+    },
+    {
+      "id": "Q4998578",
+      "name": "Burgess Cellars",
+      "wikipedia_title": "Burgess Cellars",
+      "year": 1972,
+      "regions": [
+        "napa"
+      ],
+      "source": "wikidata:P571",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q4998578",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Burgess_Cellars"
+    },
+    {
+      "id": "Q5055405",
+      "name": "Caymus Vineyards",
+      "wikipedia_title": "Caymus Vineyards",
+      "year": 1972,
+      "regions": [
+        "napa"
+      ],
+      "source": "wikidata:P571",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q5055405",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Caymus_Vineyards"
+    },
+    {
+      "id": "Q5135154",
+      "name": "Clos du Val",
+      "wikipedia_title": "Clos Du Val Winery",
+      "year": 1972,
+      "regions": [
+        "napa"
+      ],
+      "source": "wikidata:P571",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q5135154",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Clos_Du_Val_Winery"
+    },
+    {
+      "id": "Q7516217",
+      "name": "Silver Oak Cellars",
+      "wikipedia_title": "Silver Oak Cellars",
+      "year": 1972,
+      "regions": [
+        "napa"
+      ],
+      "source": "wikidata:P571",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q7516217",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Silver_Oak_Cellars"
+    },
+    {
+      "id": "Q17986201",
+      "name": "Cakebread Cellars",
+      "wikipedia_title": "Cakebread Cellars",
+      "year": 1973,
+      "regions": [
+        "napa"
+      ],
+      "source": "wikipedia-rest-summary",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q17986201",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Cakebread_Cellars"
+    },
+    {
+      "id": "Q5289839",
+      "name": "Domaine Chandon",
+      "wikipedia_title": "Domaine Chandon California",
+      "year": 1973,
+      "regions": [
+        "napa"
+      ],
+      "source": "wikidata:P571",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q5289839",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Domaine_Chandon_California"
+    },
+    {
+      "id": "Q5637141",
+      "name": "Hacienda Wine Cellars",
+      "wikipedia_title": "Hacienda Wine Cellars",
+      "year": 1973,
+      "regions": [
+        "sonoma"
+      ],
+      "source": "wikipedia-rest-summary",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q5637141",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Hacienda_Wine_Cellars"
+    },
+    {
+      "id": "Q5244588",
+      "name": "DeLoach Vineyards",
+      "wikipedia_title": "DeLoach Vineyards",
+      "year": 1975,
+      "regions": [
+        "sonoma"
+      ],
+      "source": "wikidata:P571",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q5244588",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/DeLoach_Vineyards"
+    },
+    {
+      "id": "Q5608526",
+      "name": "Grgich Hills Estate",
+      "wikipedia_title": "Grgich Hills Estate",
+      "year": 1977,
+      "regions": [
+        "napa"
+      ],
+      "source": "wikidata:P571",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q5608526",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Grgich_Hills_Estate"
+    },
+    {
+      "id": "Q17111283",
+      "name": "Newton Vineyard",
+      "wikipedia_title": "Newton Vineyard",
+      "year": 1977,
+      "regions": [
+        "napa"
+      ],
+      "source": "wikipedia-rest-summary",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q17111283",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Newton_Vineyard"
+    },
+    {
+      "id": "Q7311783",
+      "name": "Remick Ridge Vineyards",
+      "wikipedia_title": "Remick Ridge Vineyards",
+      "year": null,
+      "regions": [
+        "sonoma"
+      ],
+      "source": null,
+      "wikidata_url": "https://www.wikidata.org/wiki/Q7311783",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Remick_Ridge_Vineyards"
+    },
+    {
+      "id": "Q17020328",
+      "name": "Markham Vineyards",
+      "wikipedia_title": "Markham Vineyards",
+      "year": 1978,
+      "regions": [
+        "napa"
+      ],
+      "source": "wikidata:P571",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q17020328",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Markham_Vineyards"
+    },
+    {
+      "id": "Q4670844",
+      "name": "Acacia Winery",
+      "wikipedia_title": "Acacia Winery",
+      "year": 1979,
+      "regions": [
+        "napa"
+      ],
+      "source": "wikipedia-rest-summary",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q4670844",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Acacia_Winery"
+    },
+    {
+      "id": "Q4683281",
+      "name": "Adler Fels",
+      "wikipedia_title": "Adler Fels",
+      "year": 1979,
+      "regions": [
+        "sonoma"
+      ],
+      "source": "wikidata:P571",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q4683281",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Adler_Fels"
+    },
+    {
+      "id": "Q5638504",
+      "name": "Hagafen Cellars",
+      "wikipedia_title": "Hagafen Cellars",
+      "year": 1979,
+      "regions": [
+        "napa"
+      ],
+      "source": "wikidata:P571",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q5638504",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Hagafen_Cellars"
+    },
+    {
+      "id": "Q448588",
+      "name": "Opus One Winery",
+      "wikipedia_title": "Opus One Winery",
+      "year": 1980,
+      "regions": [
+        "napa"
+      ],
+      "source": "wikidata:P571",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q448588",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Opus_One_Winery"
+    },
+    {
+      "id": "Q5505161",
+      "name": "Frog's Leap Winery",
+      "wikipedia_title": "Frog's Leap Winery",
+      "year": 1981,
+      "regions": [
+        "napa"
+      ],
+      "source": "wikidata:P571",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q5505161",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Frog%27s_Leap_Winery"
+    },
+    {
+      "id": "Q5133714",
+      "name": "Cline Cellars",
+      "wikipedia_title": "Cline Cellars",
+      "year": 1982,
+      "regions": [
+        "sonoma"
+      ],
+      "source": "wikidata:P571",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q5133714",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Cline_Cellars"
+    },
+    {
+      "id": "Q3195114",
+      "name": "Kendall-Jackson",
+      "wikipedia_title": "Kendall-Jackson",
+      "year": 1982,
+      "regions": [
+        "sonoma"
+      ],
+      "source": "wikidata:P571",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q3195114",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Kendall-Jackson"
+    },
+    {
+      "id": "Q4980564",
+      "name": "Bryant Estate",
+      "wikipedia_title": "Bryant Family Vineyard",
+      "year": 1986,
+      "regions": [
+        "napa"
+      ],
+      "source": "wikidata:P571",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q4980564",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Bryant_Family_Vineyard"
+    },
+    {
+      "id": "Q5571371",
+      "name": "Gloria Ferrer Caves & Vineyards",
+      "wikipedia_title": "Gloria Ferrer Caves & Vineyards",
+      "year": 1986,
+      "regions": [
+        "sonoma"
+      ],
+      "source": "wikidata:P571",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q5571371",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Gloria_Ferrer_Caves_%26_Vineyards"
+    },
+    {
+      "id": "Q6109439",
+      "name": "J Vineyards & Winery",
+      "wikipedia_title": "J Vineyards & Winery",
+      "year": 1986,
+      "regions": [
+        "sonoma"
+      ],
+      "source": "wikidata:P571",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q6109439",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/J_Vineyards_%26_Winery"
+    },
+    {
+      "id": "Q110820627",
+      "name": "Viadera",
+      "wikipedia_title": "Viader",
+      "year": 1986,
+      "regions": [
+        "napa"
+      ],
+      "source": "wikipedia-rest-summary",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q110820627",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Viader"
+    },
+    {
+      "id": "Q48802764",
+      "name": "Domaine Carneros",
+      "wikipedia_title": "Domaine Carneros",
+      "year": 1987,
+      "regions": [
+        "napa"
+      ],
+      "source": "wikipedia-rest-summary",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q48802764",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Domaine_Carneros"
+    },
+    {
+      "id": "Q6491860",
+      "name": "Larson Family Winery",
+      "wikipedia_title": "Larson Family Winery",
+      "year": 1987,
+      "regions": [
+        "sonoma"
+      ],
+      "source": "wikidata:P571",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q6491860",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Larson_Family_Winery"
+    },
+    {
+      "id": "Q4784465",
+      "name": "Araujo Estate Wines",
+      "wikipedia_title": "Eisele Vineyard Estate",
+      "year": 1990,
+      "regions": [
+        "napa"
+      ],
+      "source": "wikidata:P571",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q4784465",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Eisele_Vineyard_Estate"
+    },
+    {
+      "id": "Q5144792",
+      "name": "Colgin Cellars",
+      "wikipedia_title": "Colgin Cellars",
+      "year": 1992,
+      "regions": [
+        "napa"
+      ],
+      "source": "wikipedia-rest-summary",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q5144792",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Colgin_Cellars"
+    },
+    {
+      "id": "Q4891963",
+      "name": "Marimar Estate",
+      "wikipedia_title": "Marimar Estate",
+      "year": 1992,
+      "regions": [
+        "sonoma"
+      ],
+      "source": "wikidata:P571",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q4891963",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Marimar_Estate"
+    },
+    {
+      "id": "Q4976133",
+      "name": "Brown Estate",
+      "wikipedia_title": "Brown Estate",
+      "year": 1995,
+      "regions": [
+        "napa"
+      ],
+      "source": "wikipedia-rest-summary",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q4976133",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Brown_Estate"
+    },
+    {
+      "id": "Q137739124",
+      "name": "Bond",
+      "wikipedia_title": "Bond (winery)",
+      "year": 1996,
+      "regions": [
+        "napa"
+      ],
+      "source": "wikidata:P571",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q137739124",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Bond_%28winery%29"
+    },
+    {
+      "id": "Q16950093",
+      "name": "Baldacci Family Vineyards",
+      "wikipedia_title": "Baldacci Family Vineyards",
+      "year": 1997,
+      "regions": [
+        "napa"
+      ],
+      "source": "wikidata:P571",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q16950093",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Baldacci_Family_Vineyards"
+    },
+    {
+      "id": "Q66124044",
+      "name": "Kosta Browne",
+      "wikipedia_title": "Kosta Browne",
+      "year": 1997,
+      "regions": [
+        "sonoma"
+      ],
+      "source": "wikipedia-rest-summary",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q66124044",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Kosta_Browne"
+    },
+    {
+      "id": "Q16999342",
+      "name": "Merry Edwards Winery",
+      "wikipedia_title": "Merry Edwards Winery",
+      "year": 1997,
+      "regions": [
+        "sonoma"
+      ],
+      "source": "wikidata:P571",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q16999342",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Merry_Edwards_Winery"
+    },
+    {
+      "id": "Q7128164",
+      "name": "Palmaz Vineyards",
+      "wikipedia_title": "Palmaz Vineyards",
+      "year": 1997,
+      "regions": [
+        "napa"
+      ],
+      "source": "wikidata:P571",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q7128164",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Palmaz_Vineyards"
+    },
+    {
+      "id": "Q5057390",
+      "name": "Ceja Vineyards",
+      "wikipedia_title": "Ceja Vineyards",
+      "year": 1999,
+      "regions": [
+        "napa"
+      ],
+      "source": "wikipedia-rest-summary",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q5057390",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Ceja_Vineyards"
+    },
+    {
+      "id": "Q7859475",
+      "name": "Twomey Cellars",
+      "wikipedia_title": "Twomey Cellars",
+      "year": 1999,
+      "regions": [
+        "napa"
+      ],
+      "source": "wikidata:P571",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q7859475",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Twomey_Cellars"
+    },
+    {
+      "id": "Q135350274",
+      "name": "Inman Family Wines",
+      "wikipedia_title": "Inman Family Wines",
+      "year": 2000,
+      "regions": [
+        "sonoma"
+      ],
+      "source": "wikipedia-rest-summary",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q135350274",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Inman_Family_Wines"
+    },
+    {
+      "id": "Q6493988",
+      "name": "Lasseter Family Winery",
+      "wikipedia_title": "Lasseter Family Winery",
+      "year": 2000,
+      "regions": [
+        "sonoma"
+      ],
+      "source": "wikidata:P571",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q6493988",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Lasseter_Family_Winery"
+    },
+    {
+      "id": "Q60760579",
+      "name": "Ovid Napa Valley",
+      "wikipedia_title": "Ovid Napa Valley",
+      "year": 2000,
+      "regions": [
+        "napa"
+      ],
+      "source": "wikipedia-rest-summary",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q60760579",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Ovid_Napa_Valley"
+    },
+    {
+      "id": "Q5501040",
+      "name": "Freeman Vineyard & Winery",
+      "wikipedia_title": "Freeman Vineyard & Winery",
+      "year": 2001,
+      "regions": [
+        "sonoma"
+      ],
+      "source": "wikipedia-rest-summary",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q5501040",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Freeman_Vineyard_%26_Winery"
+    },
+    {
+      "id": "Q4922591",
+      "name": "Blackbird Vineyards",
+      "wikipedia_title": "Blackbird Vineyards",
+      "year": 2003,
+      "regions": [
+        "napa"
+      ],
+      "source": "wikidata:P571",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q4922591",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Blackbird_Vineyards"
+    },
+    {
+      "id": "Q4890133",
+      "name": "Benovia Winery",
+      "wikipedia_title": "Benovia Winery",
+      "year": 2005,
+      "regions": [
+        "sonoma"
+      ],
+      "source": "wikidata:P571",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q4890133",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Benovia_Winery"
+    },
+    {
+      "id": "Q1913305",
+      "name": "Castello di Amorosa",
+      "wikipedia_title": "Castello di Amorosa",
+      "year": 2007,
+      "regions": [
+        "napa"
+      ],
+      "source": "wikidata:P571",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q1913305",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Castello_di_Amorosa"
+    },
+    {
+      "id": "Q22666946",
+      "name": "Passaggio Wines",
+      "wikipedia_title": "Passaggio Wines",
+      "year": 2007,
+      "regions": [
+        "sonoma"
+      ],
+      "source": "wikidata:P571",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q22666946",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Passaggio_Wines"
+    },
+    {
+      "id": "Q137196078",
+      "name": "Promontory",
+      "wikipedia_title": "Promontory (winery)",
+      "year": 2008,
+      "regions": [
+        "napa"
+      ],
+      "source": "wikipedia-rest-summary",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q137196078",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Promontory_%28winery%29"
+    },
+    {
+      "id": "Q65058037",
+      "name": "Ashes & Diamonds Winery",
+      "wikipedia_title": "Ashes & Diamonds Winery",
+      "year": 2014,
+      "regions": [
+        "napa"
+      ],
+      "source": "wikipedia-rest-summary",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q65058037",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Ashes_%26_Diamonds_Winery"
+    },
+    {
+      "id": "Q4669521",
+      "name": "Abreu Vineyards",
+      "wikipedia_title": "Abreu Vineyards",
+      "year": null,
+      "regions": [
+        "napa"
+      ],
+      "source": null,
+      "wikidata_url": "https://www.wikidata.org/wiki/Q4669521",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Abreu_Vineyards"
+    },
+    {
+      "id": "Q4713643",
+      "name": "Alderbrook Winery",
+      "wikipedia_title": "Alderbrook Winery",
+      "year": null,
+      "regions": [
+        "sonoma"
+      ],
+      "source": null,
+      "wikidata_url": "https://www.wikidata.org/wiki/Q4713643",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Alderbrook_Winery"
+    },
+    {
+      "id": "Q4754299",
+      "name": "Andesite Vineyard",
+      "wikipedia_title": "Andesite Vineyard",
+      "year": null,
+      "regions": [
+        "napa"
+      ],
+      "source": null,
+      "wikidata_url": "https://www.wikidata.org/wiki/Q4754299",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Andesite_Vineyard"
+    },
+    {
+      "id": "Q4756144",
+      "name": "Andretti Winery",
+      "wikipedia_title": "Andretti Winery",
+      "year": null,
+      "regions": [
+        "napa"
+      ],
+      "source": null,
+      "wikidata_url": "https://www.wikidata.org/wiki/Q4756144",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Andretti_Winery"
+    },
+    {
+      "id": "Q21188124",
+      "name": "Artesa Vineyards & Winery",
+      "wikipedia_title": "Artesa Vineyards & Winery",
+      "year": null,
+      "regions": [
+        "napa"
+      ],
+      "source": null,
+      "wikidata_url": "https://www.wikidata.org/wiki/Q21188124",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Artesa_Vineyards_%26_Winery"
+    },
+    {
+      "id": "Q4834159",
+      "name": "B. R. Cohn Winery",
+      "wikipedia_title": "B.R. Cohn Winery",
+      "year": null,
+      "regions": [
+        "sonoma"
+      ],
+      "source": null,
+      "wikidata_url": "https://www.wikidata.org/wiki/Q4834159",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/B.R._Cohn_Winery"
+    },
+    {
+      "id": "Q4865271",
+      "name": "Bartholomew Park Winery",
+      "wikipedia_title": "Bartholomew Park Winery",
+      "year": null,
+      "regions": [
+        "sonoma"
+      ],
+      "source": null,
+      "wikidata_url": "https://www.wikidata.org/wiki/Q4865271",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Bartholomew_Park_Winery"
+    },
+    {
+      "id": "Q16984538",
+      "name": "Blankiet Estate",
+      "wikipedia_title": "Blankiet Estate",
+      "year": null,
+      "regions": [
+        "napa"
+      ],
+      "source": null,
+      "wikidata_url": "https://www.wikidata.org/wiki/Q16984538",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Blankiet_Estate"
+    },
+    {
+      "id": "Q4998331",
+      "name": "Bure Family Wines",
+      "wikipedia_title": "Bure Family Wines",
+      "year": null,
+      "regions": [
+        "napa"
+      ],
+      "source": null,
+      "wikidata_url": "https://www.wikidata.org/wiki/Q4998331",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Bure_Family_Wines"
+    },
+    {
+      "id": "Q85750915",
+      "name": "Castle Rock Winery",
+      "wikipedia_title": "Castle Rock Winery",
+      "year": null,
+      "regions": [
+        "napa"
+      ],
+      "source": null,
+      "wikidata_url": "https://www.wikidata.org/wiki/Q85750915",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Castle_Rock_Winery"
+    },
+    {
+      "id": "Q5076542",
+      "name": "Charles Creek Vineyard",
+      "wikipedia_title": "Charles Creek Vineyard",
+      "year": null,
+      "regions": [
+        "sonoma"
+      ],
+      "source": null,
+      "wikidata_url": "https://www.wikidata.org/wiki/Q5076542",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Charles_Creek_Vineyard"
+    },
+    {
+      "id": "Q5203047",
+      "name": "D'Agostini Winery",
+      "wikipedia_title": "D'Agostini Winery",
+      "year": null,
+      "regions": [
+        "sonoma"
+      ],
+      "source": null,
+      "wikidata_url": "https://www.wikidata.org/wiki/Q5203047",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/D%27Agostini_Winery"
+    },
+    {
+      "id": "Q5291238",
+      "name": "Dominus Estate",
+      "wikipedia_title": "Dominus Estate",
+      "year": null,
+      "regions": [
+        "napa"
+      ],
+      "source": null,
+      "wikidata_url": "https://www.wikidata.org/wiki/Q5291238",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Dominus_Estate"
+    },
+    {
+      "id": "Q5311520",
+      "name": "Duckhorn Vineyards",
+      "wikipedia_title": "The Duckhorn Portfolio",
+      "year": null,
+      "regions": [
+        "napa"
+      ],
+      "source": null,
+      "wikidata_url": "https://www.wikidata.org/wiki/Q5311520",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/The_Duckhorn_Portfolio"
+    },
+    {
+      "id": "Q5434378",
+      "name": "Fantesca Estate & Winery",
+      "wikipedia_title": "Fantesca Estate & Winery",
+      "year": null,
+      "regions": [
+        "napa"
+      ],
+      "source": null,
+      "wikidata_url": "https://www.wikidata.org/wiki/Q5434378",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Fantesca_Estate_%26_Winery"
+    },
+    {
+      "id": "Q5464373",
+      "name": "Folie \u00e0 Deux",
+      "wikipedia_title": "Folie \u00e0 Deux (winery)",
+      "year": null,
+      "regions": [
+        "napa"
+      ],
+      "source": null,
+      "wikidata_url": "https://www.wikidata.org/wiki/Q5464373",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Folie_%C3%A0_Deux_%28winery%29"
+    },
+    {
+      "id": "Q5501057",
+      "name": "Freemark Abbey Winery",
+      "wikipedia_title": "Freemark Abbey Winery",
+      "year": null,
+      "regions": [
+        "napa"
+      ],
+      "source": null,
+      "wikidata_url": "https://www.wikidata.org/wiki/Q5501057",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Freemark_Abbey_Winery"
+    },
+    {
+      "id": "Q5591168",
+      "name": "Grace Family Vineyards",
+      "wikipedia_title": "Grace Family Vineyards",
+      "year": null,
+      "regions": [
+        "napa"
+      ],
+      "source": null,
+      "wikidata_url": "https://www.wikidata.org/wiki/Q5591168",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Grace_Family_Vineyards"
+    },
+    {
+      "id": "Q5658308",
+      "name": "Harlan Estate",
+      "wikipedia_title": "Harlan Estate",
+      "year": null,
+      "regions": [
+        "napa"
+      ],
+      "source": null,
+      "wikidata_url": "https://www.wikidata.org/wiki/Q5658308",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Harlan_Estate"
+    },
+    {
+      "id": "Q28457680",
+      "name": "Italian Swiss Colony",
+      "wikipedia_title": "Italian Swiss Colony",
+      "year": null,
+      "regions": [
+        "sonoma"
+      ],
+      "source": null,
+      "wikidata_url": "https://www.wikidata.org/wiki/Q28457680",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Italian_Swiss_Colony"
+    },
+    {
+      "id": "Q14682531",
+      "name": "Jordan Vineyard & Winery",
+      "wikipedia_title": "Jordan Vineyard & Winery",
+      "year": null,
+      "regions": [
+        "sonoma"
+      ],
+      "source": null,
+      "wikidata_url": "https://www.wikidata.org/wiki/Q14682531",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Jordan_Vineyard_%26_Winery"
+    },
+    {
+      "id": "Q25005482",
+      "name": "Kenwood Vineyards",
+      "wikipedia_title": "Kenwood Vineyards",
+      "year": null,
+      "regions": [
+        "sonoma"
+      ],
+      "source": null,
+      "wikidata_url": "https://www.wikidata.org/wiki/Q25005482",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Kenwood_Vineyards"
+    },
+    {
+      "id": "Q6417327",
+      "name": "Kistler Vineyards",
+      "wikipedia_title": "Kistler Vineyards",
+      "year": null,
+      "regions": [
+        "sonoma"
+      ],
+      "source": null,
+      "wikidata_url": "https://www.wikidata.org/wiki/Q6417327",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Kistler_Vineyards"
+    },
+    {
+      "id": "Q85782300",
+      "name": "Louis M. Martini Winery",
+      "wikipedia_title": "Louis M. Martini Winery",
+      "year": null,
+      "regions": [
+        "napa"
+      ],
+      "source": null,
+      "wikidata_url": "https://www.wikidata.org/wiki/Q85782300",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Louis_M._Martini_Winery"
+    },
+    {
+      "id": "Q48801135",
+      "name": "Martinelli Winery",
+      "wikipedia_title": "Martinelli Winery",
+      "year": null,
+      "regions": [
+        "sonoma"
+      ],
+      "source": null,
+      "wikidata_url": "https://www.wikidata.org/wiki/Q48801135",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Martinelli_Winery"
+    },
+    {
+      "id": "Q18753759",
+      "name": "Nichelini Family Winery",
+      "wikipedia_title": "Nichelini Family Winery",
+      "year": null,
+      "regions": [
+        "napa"
+      ],
+      "source": null,
+      "wikidata_url": "https://www.wikidata.org/wiki/Q18753759",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Nichelini_Family_Winery"
+    },
+    {
+      "id": "Q21188741",
+      "name": "Pine Ridge Vineyards",
+      "wikipedia_title": "Pine Ridge Vineyards",
+      "year": null,
+      "regions": [
+        "napa"
+      ],
+      "source": null,
+      "wikidata_url": "https://www.wikidata.org/wiki/Q21188741",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Pine_Ridge_Vineyards"
+    },
+    {
+      "id": "Q7205454",
+      "name": "PlumpJack Estate Winery",
+      "wikipedia_title": "PlumpJack Winery",
+      "year": null,
+      "regions": [
+        "napa"
+      ],
+      "source": null,
+      "wikidata_url": "https://www.wikidata.org/wiki/Q7205454",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/PlumpJack_Winery"
+    },
+    {
+      "id": "Q7272697",
+      "name": "Quixote Winery",
+      "wikipedia_title": "Quixote Winery",
+      "year": null,
+      "regions": [
+        "napa"
+      ],
+      "source": null,
+      "wikidata_url": "https://www.wikidata.org/wiki/Q7272697",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Quixote_Winery"
+    },
+    {
+      "id": "Q7332713",
+      "name": "Ridge Vineyards",
+      "wikipedia_title": "Ridge Vineyards",
+      "year": null,
+      "regions": [
+        "sonoma"
+      ],
+      "source": null,
+      "wikidata_url": "https://www.wikidata.org/wiki/Q7332713",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Ridge_Vineyards"
+    },
+    {
+      "id": "Q75837453",
+      "name": "Robert Mondavi Winery",
+      "wikipedia_title": "Robert Mondavi Winery",
+      "year": null,
+      "regions": [
+        "napa"
+      ],
+      "source": null,
+      "wikidata_url": "https://www.wikidata.org/wiki/Q75837453",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Robert_Mondavi_Winery"
+    },
+    {
+      "id": "Q6304725",
+      "name": "Rubicon Estate Winery",
+      "wikipedia_title": "Rubicon Estate Winery",
+      "year": null,
+      "regions": [
+        "napa"
+      ],
+      "source": null,
+      "wikidata_url": "https://www.wikidata.org/wiki/Q6304725",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Rubicon_Estate_Winery"
+    },
+    {
+      "id": "Q7430351",
+      "name": "Scarecrow",
+      "wikipedia_title": "Scarecrow (wine)",
+      "year": null,
+      "regions": [
+        "napa"
+      ],
+      "source": null,
+      "wikidata_url": "https://www.wikidata.org/wiki/Q7430351",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Scarecrow_%28wine%29"
+    },
+    {
+      "id": "Q7438929",
+      "name": "Screaming Eagle Winery and Vineyards",
+      "wikipedia_title": "Screaming Eagle Winery and Vineyards",
+      "year": null,
+      "regions": [
+        "napa"
+      ],
+      "source": null,
+      "wikidata_url": "https://www.wikidata.org/wiki/Q7438929",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Screaming_Eagle_Winery_and_Vineyards"
+    },
+    {
+      "id": "Q7516630",
+      "name": "Silverado Vineyards Winery",
+      "wikipedia_title": "Silverado Vineyards Winery",
+      "year": null,
+      "regions": [
+        "napa"
+      ],
+      "source": null,
+      "wikidata_url": "https://www.wikidata.org/wiki/Q7516630",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Silverado_Vineyards_Winery"
+    },
+    {
+      "id": "Q27150157",
+      "name": "St. Sup\u00e9ry Estate Vineyards & Winery",
+      "wikipedia_title": "St. Sup\u00e9ry Estate Vineyards & Winery",
+      "year": null,
+      "regions": [
+        "napa"
+      ],
+      "source": null,
+      "wikidata_url": "https://www.wikidata.org/wiki/Q27150157",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/St._Sup%C3%A9ry_Estate_Vineyards_%26_Winery"
+    },
+    {
+      "id": "Q7596969",
+      "name": "Stags' Leap Winery",
+      "wikipedia_title": "Stags' Leap Winery",
+      "year": null,
+      "regions": [
+        "napa"
+      ],
+      "source": null,
+      "wikidata_url": "https://www.wikidata.org/wiki/Q7596969",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Stags%27_Leap_Winery"
+    },
+    {
+      "id": "Q7611485",
+      "name": "Sterling Vineyards",
+      "wikipedia_title": "Sterling Vineyards",
+      "year": null,
+      "regions": [
+        "napa"
+      ],
+      "source": null,
+      "wikidata_url": "https://www.wikidata.org/wiki/Q7611485",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Sterling_Vineyards"
+    },
+    {
+      "id": "Q3355779",
+      "name": "Sutter Home Winery",
+      "wikipedia_title": "Sutter Home Winery",
+      "year": null,
+      "regions": [
+        "napa"
+      ],
+      "source": null,
+      "wikidata_url": "https://www.wikidata.org/wiki/Q3355779",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Sutter_Home_Winery"
+    },
+    {
+      "id": "Q7703156",
+      "name": "Terra de Promissio",
+      "wikipedia_title": "Terra de Promissio",
+      "year": null,
+      "regions": [
+        "sonoma"
+      ],
+      "source": null,
+      "wikidata_url": "https://www.wikidata.org/wiki/Q7703156",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Terra_de_Promissio"
+    },
+    {
+      "id": "Q17065034",
+      "name": "Whitehall Lane Winery & Vineyards",
+      "wikipedia_title": "Whitehall Lane",
+      "year": null,
+      "regions": [
+        "napa"
+      ],
+      "source": null,
+      "wikidata_url": "https://www.wikidata.org/wiki/Q17065034",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Whitehall_Lane"
+    }
+  ]
+}

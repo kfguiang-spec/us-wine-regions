@@ -1,0 +1,123 @@
+[
+  {
+    "id": "napa-rutherford",
+    "parentId": "napa",
+    "name": "Rutherford",
+    "station": "Rutherford",
+    "lat": 38.4588,
+    "lon": -122.4214,
+    "blurb": "Mid-valley bench and alluvial fans famed for Cabernet (“Rutherford dust” lore); home to historic estates along Hwy 29 / Silverado Trail.",
+    "red": ["Cabernet Sauvignon", "Merlot", "Cabernet Franc"],
+    "white": ["Sauvignon Blanc", "Chardonnay"]
+  },
+  {
+    "id": "napa-oakville",
+    "parentId": "napa",
+    "name": "Oakville",
+    "station": "Oakville",
+    "lat": 38.4363,
+    "lon": -122.4014,
+    "blurb": "Prime Cabernet territory between Yountville and Rutherford; To Kalon and other iconic vineyards. Climate point near Oakville crossroads.",
+    "red": ["Cabernet Sauvignon", "Merlot", "Cabernet Franc"],
+    "white": ["Sauvignon Blanc"]
+  },
+  {
+    "id": "napa-stags-leap",
+    "parentId": "napa",
+    "name": "Stags Leap District",
+    "station": "Yountville",
+    "lat": 38.4016,
+    "lon": -122.3608,
+    "blurb": "East-side rocky soils and afternoon shade from the Stags Leap palisades; Cabernet that won the 1976 Judgment of Paris (Stag’s Leap Wine Cellars).",
+    "red": ["Cabernet Sauvignon", "Merlot"],
+    "white": []
+  },
+  {
+    "id": "napa-calistoga",
+    "parentId": "napa",
+    "name": "Calistoga",
+    "station": "Calistoga",
+    "lat": 38.5788,
+    "lon": -122.5797,
+    "blurb": "Warm northern end of the valley; volcanic soils, Cabernet and Zinfandel, plus historic Chateau Montelena nearby.",
+    "red": ["Cabernet Sauvignon", "Zinfandel", "Syrah"],
+    "white": ["Chardonnay", "Sauvignon Blanc"]
+  },
+  {
+    "id": "napa-carneros",
+    "parentId": "napa",
+    "name": "Los Carneros (shared)",
+    "station": "Sonoma (Carneros)",
+    "lat": 38.2552,
+    "lon": -122.3994,
+    "blurb": "Cool, windy AVA spanning southern Napa and Sonoma; Pinot Noir and Chardonnay (still and sparkling). Note: shared with Sonoma County.",
+    "red": ["Pinot Noir", "Merlot"],
+    "white": ["Chardonnay"]
+  },
+  {
+    "id": "napa-yountville",
+    "parentId": "napa",
+    "name": "Yountville",
+    "station": "Yountville",
+    "lat": 38.4016,
+    "lon": -122.3608,
+    "blurb": "Southern valley floor AVA; Cabernet and Merlot with slightly cooler influence than Oakville/Rutherford.",
+    "red": ["Cabernet Sauvignon", "Merlot", "Cabernet Franc"],
+    "white": ["Chardonnay", "Sauvignon Blanc"]
+  },
+  {
+    "id": "napa-howell-mountain",
+    "parentId": "napa",
+    "name": "Howell Mountain",
+    "station": "Angwin",
+    "lat": 38.5746,
+    "lon": -122.4497,
+    "blurb": "Above the fog line on the eastern range; intense Cabernet and Merlot from volcanic soils at elevation.",
+    "red": ["Cabernet Sauvignon", "Merlot", "Zinfandel"],
+    "white": []
+  },
+  {
+    "id": "napa-st-helena",
+    "parentId": "napa",
+    "name": "St. Helena",
+    "station": "St. Helena",
+    "lat": 38.5052,
+    "lon": -122.4703,
+    "blurb": "Historic town and AVA in the north-central valley; Cabernet-focused with many classic estates along Hwy 29.",
+    "red": ["Cabernet Sauvignon", "Merlot", "Zinfandel"],
+    "white": ["Chardonnay", "Sauvignon Blanc"]
+  },
+  {
+    "id": "napa-mount-veeder",
+    "parentId": "napa",
+    "name": "Mount Veeder",
+    "station": "Mount Veeder",
+    "lat": 38.35,
+    "lon": -122.44,
+    "blurb": "Mayacamas western mountains; steep vineyards, cooler nights, structured Cabernet and Chardonnay.",
+    "red": ["Cabernet Sauvignon", "Merlot", "Malbec"],
+    "white": ["Chardonnay"]
+  },
+  {
+    "id": "napa-atlas-peak",
+    "parentId": "napa",
+    "name": "Atlas Peak",
+    "station": "Atlas Peak",
+    "lat": 38.44,
+    "lon": -122.26,
+    "blurb": "Eastern Vaca Range AVA; rocky volcanic soils and elevation for Cabernet and other Bordeaux varieties.",
+    "red": ["Cabernet Sauvignon", "Sangiovese", "Merlot"],
+    "white": ["Chardonnay"]
+  },
+  {
+    "id": "napa-coombsville",
+    "parentId": "napa",
+    "name": "Coombsville",
+    "station": "Napa (east)",
+    "lat": 38.3,
+    "lon": -122.23,
+    "blurb": "Eastern hills near the city of Napa; relatively cool pocket for Cabernet and Bordeaux blends.",
+    "red": ["Cabernet Sauvignon", "Merlot", "Cabernet Franc"],
+    "white": ["Chardonnay"]
+  }
+]

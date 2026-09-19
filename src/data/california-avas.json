@@ -1,0 +1,110 @@
+[
+  {
+    "id": "napa",
+    "parentId": "california",
+    "name": "Napa Valley",
+    "station": "Napa",
+    "lat": 38.2975,
+    "lon": -122.2869,
+    "blurb": "California’s most famous fine-wine valley; Cabernet Sauvignon is king on valley floor and foothills, with Chardonnay and Merlot also important. Double-click for sub-AVAs and a winery timeline PoC.",
+    "red": ["Cabernet Sauvignon", "Merlot", "Cabernet Franc", "Petit Verdot", "Zinfandel"],
+    "white": ["Chardonnay", "Sauvignon Blanc"],
+    "drillable": true
+  },
+  {
+    "id": "sonoma",
+    "parentId": "california",
+    "name": "Sonoma County",
+    "station": "Santa Rosa",
+    "lat": 38.4404,
+    "lon": -122.7141,
+    "blurb": "Diverse AVAs from foggy Russian River Pinot/Chardonnay to warmer Alexander and Dry Creek Valley Cabernet and Zinfandel. Double-click for sub-AVAs and wineries.",
+    "red": ["Pinot Noir", "Cabernet Sauvignon", "Zinfandel", "Merlot", "Syrah"],
+    "white": ["Chardonnay", "Sauvignon Blanc", "Pinot Gris"],
+    "drillable": true
+  },
+  {
+    "id": "central-coast",
+    "parentId": "california",
+    "name": "Central Coast",
+    "station": "San Luis Obispo",
+    "lat": 35.2828,
+    "lon": -120.6596,
+    "blurb": "Broad coastal corridor from SF Bay to Santa Barbara; cool Pacific influence inland to warmer pockets. Pinot Noir, Chardonnay, Cabernet, and Rhône varieties.",
+    "red": ["Pinot Noir", "Cabernet Sauvignon", "Syrah", "Merlot"],
+    "white": ["Chardonnay", "Sauvignon Blanc", "Viognier"],
+    "drillable": false
+  },
+  {
+    "id": "paso-robles",
+    "parentId": "california",
+    "name": "Paso Robles",
+    "station": "Paso Robles",
+    "lat": 35.6266,
+    "lon": -120.691,
+    "blurb": "Warm inland Central Coast AVA; day–night swings suit Cabernet, Rhône blends, and Zinfandel. Growing prestige for Syrah and GSM-style wines.",
+    "red": ["Cabernet Sauvignon", "Syrah", "Zinfandel", "Grenache", "Mourvèdre"],
+    "white": ["Viognier", "Roussanne", "Chardonnay"],
+    "drillable": false
+  },
+  {
+    "id": "santa-barbara",
+    "parentId": "california",
+    "name": "Santa Barbara",
+    "station": "Santa Barbara",
+    "lat": 34.4208,
+    "lon": -119.6982,
+    "blurb": "East–west valleys (Santa Ynez, Sta. Rita Hills) channel cool ocean air; Pinot Noir and Chardonnay are classics, with Rhône varieties inland.",
+    "red": ["Pinot Noir", "Syrah", "Grenache"],
+    "white": ["Chardonnay", "Sauvignon Blanc", "Viognier"],
+    "drillable": false
+  },
+  {
+    "id": "mendocino",
+    "parentId": "california",
+    "name": "Mendocino",
+    "station": "Ukiah",
+    "lat": 39.1502,
+    "lon": -123.2078,
+    "blurb": "North of Sonoma; Anderson Valley is cool (Pinot, sparkling), while inland Ukiah/Redwood Valley are warmer (Zinfandel, Cabernet).",
+    "red": ["Pinot Noir", "Zinfandel", "Cabernet Sauvignon", "Syrah"],
+    "white": ["Chardonnay", "Gewürztraminer", "Riesling"],
+    "drillable": false
+  },
+  {
+    "id": "sierra-foothills",
+    "parentId": "california",
+    "name": "Sierra Foothills",
+    "station": "Placerville",
+    "lat": 38.7296,
+    "lon": -120.7985,
+    "blurb": "Gold Country elevations; old-vine Zinfandel heritage plus Barbera, Syrah, and Rhône whites. Climate point: Placerville (El Dorado).",
+    "red": ["Zinfandel", "Syrah", "Barbera", "Cabernet Sauvignon"],
+    "white": ["Viognier", "Sauvignon Blanc", "Chardonnay"],
+    "drillable": false
+  },
+  {
+    "id": "lodi",
+    "parentId": "california",
+    "name": "Lodi",
+    "station": "Lodi",
+    "lat": 38.1341,
+    "lon": -121.2722,
+    "blurb": "Inland Sacramento–San Joaquin Delta influence; major source of Zinfandel (including old vines) and everyday Cabernet/Chardonnay.",
+    "red": ["Zinfandel", "Cabernet Sauvignon", "Merlot", "Petite Sirah"],
+    "white": ["Chardonnay", "Sauvignon Blanc", "Pinot Grigio"],
+    "drillable": false
+  },
+  {
+    "id": "monterey",
+    "parentId": "california",
+    "name": "Monterey",
+    "station": "Salinas",
+    "lat": 36.6777,
+    "lon": -121.6555,
+    "blurb": "Long Salinas Valley with strong afternoon winds; Chardonnay and Pinot Noir in cooler zones, Merlot/Cabernet farther south/inland.",
+    "red": ["Pinot Noir", "Merlot", "Cabernet Sauvignon", "Syrah"],
+    "white": ["Chardonnay", "Riesling", "Sauvignon Blanc"],
+    "drillable": false
+  }
+]

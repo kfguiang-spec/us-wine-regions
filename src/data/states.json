@@ -1,0 +1,122 @@
+[
+  {
+    "id": "california",
+    "name": "California",
+    "short": "CA",
+    "station": "Napa",
+    "lat": 38.2975,
+    "lon": -122.2869,
+    "blurb": "By far the largest U.S. wine producer; Mediterranean climate from cool coastal fog belts to warm inland valleys. Napa and Sonoma lead fine wine; Central Coast, Lodi, and Sierra Foothills add volume and diversity.",
+    "red": ["Cabernet Sauvignon", "Pinot Noir", "Zinfandel", "Merlot", "Syrah"],
+    "white": ["Chardonnay", "Sauvignon Blanc", "Pinot Grigio", "Riesling"],
+    "drillable": true
+  },
+  {
+    "id": "oregon",
+    "name": "Oregon",
+    "short": "OR",
+    "station": "McMinnville",
+    "lat": 45.2101,
+    "lon": -123.1987,
+    "blurb": "Cool-climate Willamette Valley is the flagship for Pinot Noir and Chardonnay; warmer southern valleys (Rogue, Umpqua) grow Syrah and Tempranillo.",
+    "red": ["Pinot Noir", "Syrah", "Pinot Meunier"],
+    "white": ["Chardonnay", "Pinot Gris", "Riesling"],
+    "drillable": false
+  },
+  {
+    "id": "washington",
+    "name": "Washington",
+    "short": "WA",
+    "station": "Walla Walla",
+    "lat": 46.0646,
+    "lon": -118.343,
+    "blurb": "Columbia Valley rain shadow: warm, dry growing seasons with cool nights. Cabernet, Merlot, Syrah, and Riesling lead; Walla Walla and Red Mountain are prestige sub-AVAs.",
+    "red": ["Cabernet Sauvignon", "Merlot", "Syrah", "Cabernet Franc"],
+    "white": ["Riesling", "Chardonnay", "Sauvignon Blanc"],
+    "drillable": false
+  },
+  {
+    "id": "new-york",
+    "name": "New York",
+    "short": "NY",
+    "station": "Geneva",
+    "lat": 42.8681,
+    "lon": -76.9856,
+    "blurb": "Finger Lakes (Riesling, cool-climate hybrids and vinifera) plus Long Island (maritime Merlot/Cabernet Franc) and Hudson Valley.",
+    "red": ["Cabernet Franc", "Pinot Noir", "Merlot", "Concord (hybrid/legacy)"],
+    "white": ["Riesling", "Chardonnay", "Gewürztraminer", "Cayuga (hybrid)"],
+    "drillable": false
+  },
+  {
+    "id": "virginia",
+    "name": "Virginia",
+    "short": "VA",
+    "station": "Charlottesville",
+    "lat": 38.0293,
+    "lon": -78.4767,
+    "blurb": "Humid continental/mid-Atlantic; Viognier is a signature white, with Cabernet Franc, Merlot, and Petit Verdot for reds. Monticello and Shenandoah Valley are key AVAs.",
+    "red": ["Cabernet Franc", "Merlot", "Petit Verdot", "Cabernet Sauvignon"],
+    "white": ["Viognier", "Chardonnay", "Petit Manseng"],
+    "drillable": false
+  },
+  {
+    "id": "texas",
+    "name": "Texas",
+    "short": "TX",
+    "station": "Fredericksburg",
+    "lat": 30.2752,
+    "lon": -98.872,
+    "blurb": "Hill Country and High Plains dominate plantings; warm, often dry sites favor Tempranillo, Mourvèdre, Cabernet, and Rhône whites. Climate point: Fredericksburg (Hill Country).",
+    "red": ["Tempranillo", "Cabernet Sauvignon", "Mourvèdre", "Syrah"],
+    "white": ["Viognier", "Roussanne", "Blanc du Bois"],
+    "drillable": false
+  },
+  {
+    "id": "michigan",
+    "name": "Michigan",
+    "short": "MI",
+    "station": "Traverse City",
+    "lat": 44.7631,
+    "lon": -85.6206,
+    "blurb": "Lake Michigan moderates Old Mission and Leelanau peninsulas; Riesling, Pinot Gris, and sparkling styles thrive in a cool northern climate.",
+    "red": ["Pinot Noir", "Cabernet Franc", "Merlot"],
+    "white": ["Riesling", "Pinot Gris", "Chardonnay", "Gewürztraminer"],
+    "drillable": false
+  },
+  {
+    "id": "pennsylvania",
+    "name": "Pennsylvania",
+    "short": "PA",
+    "station": "Erie",
+    "lat": 42.1292,
+    "lon": -80.0851,
+    "blurb": "Lake Erie AVA along the shore plus inland Piedmont and Lehigh Valley plantings; hybrids and cool-climate vinifera (Riesling, Cabernet Franc).",
+    "red": ["Cabernet Franc", "Chambourcin", "Pinot Noir"],
+    "white": ["Riesling", "Chardonnay", "Vidal Blanc"],
+    "drillable": false
+  },
+  {
+    "id": "new-mexico",
+    "name": "New Mexico",
+    "short": "NM",
+    "station": "Truth or Consequences",
+    "lat": 33.1284,
+    "lon": -107.2528,
+    "blurb": "High-elevation desert vineyards; historic mission plantings and modern sparkling (e.g. Gruet). Climate point near Mid-Rio Grande / southern growing areas.",
+    "red": ["Cabernet Sauvignon", "Zinfandel", "Syrah", "Tempranillo"],
+    "white": ["Chardonnay", "Riesling", "Viognier"],
+    "drillable": false
+  },
+  {
+    "id": "idaho",
+    "name": "Idaho",
+    "short": "ID",
+    "station": "Caldwell",
+    "lat": 43.6629,
+    "lon": -116.6874,
+    "blurb": "Snake River Valley AVA shared with Oregon; cool nights and volcanic soils. Riesling, Chardonnay, and Bordeaux/Rhône reds.",
+    "red": ["Cabernet Sauvignon", "Merlot", "Syrah", "Tempranillo"],
+    "white": ["Riesling", "Chardonnay", "Viognier"],
+    "drillable": false
+  }
+]
