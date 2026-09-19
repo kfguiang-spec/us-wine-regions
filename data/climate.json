@@ -1,0 +1,921 @@
+{
+  "fetched_at": "2026-09-19T20:31:10.455Z",
+  "source": "Open-Meteo Historical Weather API (ERA5 reanalysis). Daily temperature_2m_mean averaged over 1991–2020.",
+  "attribution": "https://open-meteo.com/",
+  "citation": "Hersbach et al. (2023). ERA5 hourly data on single levels from 1940 to present. ECMWF. https://doi.org/10.24381/cds.adbb2d47 — via Open-Meteo.",
+  "methodology": "For each representative station coordinate, daily 2 m mean air temperature (ERA5) was requested for 1991-01-01 through 2020-12-31. Annual mean = average of all daily means. Growing-season mean = average of daily means where month is April through October (inclusive). Values rounded to 0.1 °C. US states, California AVAs, and Napa/Sonoma sub-AVAs.",
+  "regions": [
+    {
+      "id": "napa",
+      "station": "Napa",
+      "requested": {
+        "lat": 38.2975,
+        "lon": -122.2869
+      },
+      "grid": {
+        "latitude": 38.25,
+        "longitude": -122.25,
+        "elevation_m": 10
+      },
+      "period": {
+        "start": "1991-01-01",
+        "end": "2020-12-31"
+      },
+      "model": "era5",
+      "units": "°C",
+      "annual_mean_c": 16.1,
+      "growing_season_mean_c": 19.3,
+      "growing_season_months": "Apr–Oct",
+      "sample_days": 10958,
+      "growing_season_days": 6420
+    },
+    {
+      "id": "sonoma",
+      "station": "Santa Rosa",
+      "requested": {
+        "lat": 38.4404,
+        "lon": -122.7141
+      },
+      "grid": {
+        "latitude": 38.5,
+        "longitude": -122.75,
+        "elevation_m": 54
+      },
+      "period": {
+        "start": "1991-01-01",
+        "end": "2020-12-31"
+      },
+      "model": "era5",
+      "units": "°C",
+      "annual_mean_c": 15.9,
+      "growing_season_mean_c": 19.2,
+      "growing_season_months": "Apr–Oct",
+      "sample_days": 10958,
+      "growing_season_days": 6420
+    },
+    {
+      "id": "central-coast",
+      "station": "San Luis Obispo",
+      "requested": {
+        "lat": 35.2828,
+        "lon": -120.6596
+      },
+      "grid": {
+        "latitude": 35.25,
+        "longitude": -120.75,
+        "elevation_m": 75
+      },
+      "period": {
+        "start": "1991-01-01",
+        "end": "2020-12-31"
+      },
+      "model": "era5",
+      "units": "°C",
+      "annual_mean_c": 15.4,
+      "growing_season_mean_c": 17.2,
+      "growing_season_months": "Apr–Oct",
+      "sample_days": 10958,
+      "growing_season_days": 6420
+    },
+    {
+      "id": "paso-robles",
+      "station": "Paso Robles",
+      "requested": {
+        "lat": 35.6266,
+        "lon": -120.691
+      },
+      "grid": {
+        "latitude": 35.75,
+        "longitude": -120.75,
+        "elevation_m": 229
+      },
+      "period": {
+        "start": "1991-01-01",
+        "end": "2020-12-31"
+      },
+      "model": "era5",
+      "units": "°C",
+      "annual_mean_c": 16.4,
+      "growing_season_mean_c": 19.9,
+      "growing_season_months": "Apr–Oct",
+      "sample_days": 10958,
+      "growing_season_days": 6420
+    },
+    {
+      "id": "santa-barbara",
+      "station": "Santa Barbara",
+      "requested": {
+        "lat": 34.4208,
+        "lon": -119.6982
+      },
+      "grid": {
+        "latitude": 34.5,
+        "longitude": -119.75,
+        "elevation_m": 14
+      },
+      "period": {
+        "start": "1991-01-01",
+        "end": "2020-12-31"
+      },
+      "model": "era5",
+      "units": "°C",
+      "annual_mean_c": 18.8,
+      "growing_season_mean_c": 21.5,
+      "growing_season_months": "Apr–Oct",
+      "sample_days": 10958,
+      "growing_season_days": 6420
+    },
+    {
+      "id": "mendocino",
+      "station": "Ukiah",
+      "requested": {
+        "lat": 39.1502,
+        "lon": -123.2078
+      },
+      "grid": {
+        "latitude": 39.25,
+        "longitude": -123.25,
+        "elevation_m": 198
+      },
+      "period": {
+        "start": "1991-01-01",
+        "end": "2020-12-31"
+      },
+      "model": "era5",
+      "units": "°C",
+      "annual_mean_c": 15.6,
+      "growing_season_mean_c": 19.4,
+      "growing_season_months": "Apr–Oct",
+      "sample_days": 10958,
+      "growing_season_days": 6420
+    },
+    {
+      "id": "sierra-foothills",
+      "station": "Placerville",
+      "requested": {
+        "lat": 38.7296,
+        "lon": -120.7985
+      },
+      "grid": {
+        "latitude": 38.75,
+        "longitude": -120.75,
+        "elevation_m": 568
+      },
+      "period": {
+        "start": "1991-01-01",
+        "end": "2020-12-31"
+      },
+      "model": "era5",
+      "units": "°C",
+      "annual_mean_c": 16,
+      "growing_season_mean_c": 20.4,
+      "growing_season_months": "Apr–Oct",
+      "sample_days": 10958,
+      "growing_season_days": 6420
+    },
+    {
+      "id": "lodi",
+      "station": "Lodi",
+      "requested": {
+        "lat": 38.1341,
+        "lon": -121.2722
+      },
+      "grid": {
+        "latitude": 38.25,
+        "longitude": -121.25,
+        "elevation_m": 19
+      },
+      "period": {
+        "start": "1991-01-01",
+        "end": "2020-12-31"
+      },
+      "model": "era5",
+      "units": "°C",
+      "annual_mean_c": 16.5,
+      "growing_season_mean_c": 20.5,
+      "growing_season_months": "Apr–Oct",
+      "sample_days": 10958,
+      "growing_season_days": 6420
+    },
+    {
+      "id": "monterey",
+      "station": "Salinas",
+      "requested": {
+        "lat": 36.6777,
+        "lon": -121.6555
+      },
+      "grid": {
+        "latitude": 36.75,
+        "longitude": -121.75,
+        "elevation_m": 15
+      },
+      "period": {
+        "start": "1991-01-01",
+        "end": "2020-12-31"
+      },
+      "model": "era5",
+      "units": "°C",
+      "annual_mean_c": 14.2,
+      "growing_season_mean_c": 15.8,
+      "growing_season_months": "Apr–Oct",
+      "sample_days": 10958,
+      "growing_season_days": 6420
+    },
+    {
+      "id": "napa-rutherford",
+      "station": "Rutherford",
+      "requested": {
+        "lat": 38.4588,
+        "lon": -122.4214
+      },
+      "grid": {
+        "latitude": 38.5,
+        "longitude": -122.5,
+        "elevation_m": 54
+      },
+      "period": {
+        "start": "1991-01-01",
+        "end": "2020-12-31"
+      },
+      "model": "era5",
+      "units": "°C",
+      "annual_mean_c": 16.7,
+      "growing_season_mean_c": 20.3,
+      "growing_season_months": "Apr–Oct",
+      "sample_days": 10958,
+      "growing_season_days": 6420
+    },
+    {
+      "id": "napa-oakville",
+      "station": "Oakville",
+      "requested": {
+        "lat": 38.4363,
+        "lon": -122.4014
+      },
+      "grid": {
+        "latitude": 38.5,
+        "longitude": -122.5,
+        "elevation_m": 49
+      },
+      "period": {
+        "start": "1991-01-01",
+        "end": "2020-12-31"
+      },
+      "model": "era5",
+      "units": "°C",
+      "annual_mean_c": 16.7,
+      "growing_season_mean_c": 20.3,
+      "growing_season_months": "Apr–Oct",
+      "sample_days": 10958,
+      "growing_season_days": 6420
+    },
+    {
+      "id": "napa-stags-leap",
+      "station": "Yountville",
+      "requested": {
+        "lat": 38.4016,
+        "lon": -122.3608
+      },
+      "grid": {
+        "latitude": 38.5,
+        "longitude": -122.25,
+        "elevation_m": 30
+      },
+      "period": {
+        "start": "1991-01-01",
+        "end": "2020-12-31"
+      },
+      "model": "era5",
+      "units": "°C",
+      "annual_mean_c": 17.3,
+      "growing_season_mean_c": 21.1,
+      "growing_season_months": "Apr–Oct",
+      "sample_days": 10958,
+      "growing_season_days": 6420
+    },
+    {
+      "id": "napa-calistoga",
+      "station": "Calistoga",
+      "requested": {
+        "lat": 38.5788,
+        "lon": -122.5797
+      },
+      "grid": {
+        "latitude": 38.5,
+        "longitude": -122.5,
+        "elevation_m": 109
+      },
+      "period": {
+        "start": "1991-01-01",
+        "end": "2020-12-31"
+      },
+      "model": "era5",
+      "units": "°C",
+      "annual_mean_c": 16.3,
+      "growing_season_mean_c": 19.9,
+      "growing_season_months": "Apr–Oct",
+      "sample_days": 10958,
+      "growing_season_days": 6420
+    },
+    {
+      "id": "napa-carneros",
+      "station": "Sonoma (Carneros)",
+      "requested": {
+        "lat": 38.2552,
+        "lon": -122.3994
+      },
+      "grid": {
+        "latitude": 38.25,
+        "longitude": -122.5,
+        "elevation_m": 67
+      },
+      "period": {
+        "start": "1991-01-01",
+        "end": "2020-12-31"
+      },
+      "model": "era5",
+      "units": "°C",
+      "annual_mean_c": 15.1,
+      "growing_season_mean_c": 17.8,
+      "growing_season_months": "Apr–Oct",
+      "sample_days": 10958,
+      "growing_season_days": 6420
+    },
+    {
+      "id": "napa-yountville",
+      "station": "Yountville",
+      "requested": {
+        "lat": 38.4016,
+        "lon": -122.3608
+      },
+      "grid": {
+        "latitude": 38.5,
+        "longitude": -122.25,
+        "elevation_m": 30
+      },
+      "period": {
+        "start": "1991-01-01",
+        "end": "2020-12-31"
+      },
+      "model": "era5",
+      "units": "°C",
+      "annual_mean_c": 17.3,
+      "growing_season_mean_c": 21.1,
+      "growing_season_months": "Apr–Oct",
+      "sample_days": 10958,
+      "growing_season_days": 6420
+    },
+    {
+      "id": "napa-howell-mountain",
+      "station": "Angwin",
+      "requested": {
+        "lat": 38.5746,
+        "lon": -122.4497
+      },
+      "grid": {
+        "latitude": 38.5,
+        "longitude": -122.5,
+        "elevation_m": 531
+      },
+      "period": {
+        "start": "1991-01-01",
+        "end": "2020-12-31"
+      },
+      "model": "era5",
+      "units": "°C",
+      "annual_mean_c": 13.6,
+      "growing_season_mean_c": 17.2,
+      "growing_season_months": "Apr–Oct",
+      "sample_days": 10958,
+      "growing_season_days": 6420
+    },
+    {
+      "id": "napa-st-helena",
+      "station": "St. Helena",
+      "requested": {
+        "lat": 38.5052,
+        "lon": -122.4703
+      },
+      "grid": {
+        "latitude": 38.5,
+        "longitude": -122.5,
+        "elevation_m": 82
+      },
+      "period": {
+        "start": "1991-01-01",
+        "end": "2020-12-31"
+      },
+      "model": "era5",
+      "units": "°C",
+      "annual_mean_c": 16.5,
+      "growing_season_mean_c": 20.1,
+      "growing_season_months": "Apr–Oct",
+      "sample_days": 10958,
+      "growing_season_days": 6420
+    },
+    {
+      "id": "napa-mount-veeder",
+      "station": "Mount Veeder",
+      "requested": {
+        "lat": 38.35,
+        "lon": -122.44
+      },
+      "grid": {
+        "latitude": 38.25,
+        "longitude": -122.5,
+        "elevation_m": 447
+      },
+      "period": {
+        "start": "1991-01-01",
+        "end": "2020-12-31"
+      },
+      "model": "era5",
+      "units": "°C",
+      "annual_mean_c": 12.6,
+      "growing_season_mean_c": 15.4,
+      "growing_season_months": "Apr–Oct",
+      "sample_days": 10958,
+      "growing_season_days": 6420
+    },
+    {
+      "id": "napa-atlas-peak",
+      "station": "Atlas Peak",
+      "requested": {
+        "lat": 38.44,
+        "lon": -122.26
+      },
+      "grid": {
+        "latitude": 38.5,
+        "longitude": -122.25,
+        "elevation_m": 726
+      },
+      "period": {
+        "start": "1991-01-01",
+        "end": "2020-12-31"
+      },
+      "model": "era5",
+      "units": "°C",
+      "annual_mean_c": 12.7,
+      "growing_season_mean_c": 16.5,
+      "growing_season_months": "Apr–Oct",
+      "sample_days": 10958,
+      "growing_season_days": 6420
+    },
+    {
+      "id": "napa-coombsville",
+      "station": "Napa (east)",
+      "requested": {
+        "lat": 38.3,
+        "lon": -122.23
+      },
+      "grid": {
+        "latitude": 38.25,
+        "longitude": -122.25,
+        "elevation_m": 58
+      },
+      "period": {
+        "start": "1991-01-01",
+        "end": "2020-12-31"
+      },
+      "model": "era5",
+      "units": "°C",
+      "annual_mean_c": 15.8,
+      "growing_season_mean_c": 19,
+      "growing_season_months": "Apr–Oct",
+      "sample_days": 10958,
+      "growing_season_days": 6420
+    },
+    {
+      "id": "sonoma-russian-river",
+      "station": "Healdsburg",
+      "requested": {
+        "lat": 38.6102,
+        "lon": -122.8694
+      },
+      "grid": {
+        "latitude": 38.5,
+        "longitude": -122.75,
+        "elevation_m": 37
+      },
+      "period": {
+        "start": "1991-01-01",
+        "end": "2020-12-31"
+      },
+      "model": "era5",
+      "units": "°C",
+      "annual_mean_c": 16,
+      "growing_season_mean_c": 19.3,
+      "growing_season_months": "Apr–Oct",
+      "sample_days": 10958,
+      "growing_season_days": 6420
+    },
+    {
+      "id": "sonoma-alexander",
+      "station": "Geyserville",
+      "requested": {
+        "lat": 38.7113,
+        "lon": -122.9011
+      },
+      "grid": {
+        "latitude": 38.75,
+        "longitude": -123,
+        "elevation_m": 65
+      },
+      "period": {
+        "start": "1991-01-01",
+        "end": "2020-12-31"
+      },
+      "model": "era5",
+      "units": "°C",
+      "annual_mean_c": 16.3,
+      "growing_season_mean_c": 19.9,
+      "growing_season_months": "Apr–Oct",
+      "sample_days": 10958,
+      "growing_season_days": 6420
+    },
+    {
+      "id": "sonoma-dry-creek",
+      "station": "Healdsburg (Dry Creek)",
+      "requested": {
+        "lat": 38.6585,
+        "lon": -122.9253
+      },
+      "grid": {
+        "latitude": 38.75,
+        "longitude": -123,
+        "elevation_m": 43
+      },
+      "period": {
+        "start": "1991-01-01",
+        "end": "2020-12-31"
+      },
+      "model": "era5",
+      "units": "°C",
+      "annual_mean_c": 16.4,
+      "growing_season_mean_c": 20.1,
+      "growing_season_months": "Apr–Oct",
+      "sample_days": 10958,
+      "growing_season_days": 6420
+    },
+    {
+      "id": "sonoma-valley",
+      "station": "Sonoma",
+      "requested": {
+        "lat": 38.2919,
+        "lon": -122.458
+      },
+      "grid": {
+        "latitude": 38.25,
+        "longitude": -122.5,
+        "elevation_m": 30
+      },
+      "period": {
+        "start": "1991-01-01",
+        "end": "2020-12-31"
+      },
+      "model": "era5",
+      "units": "°C",
+      "annual_mean_c": 15.3,
+      "growing_season_mean_c": 18.1,
+      "growing_season_months": "Apr–Oct",
+      "sample_days": 10958,
+      "growing_season_days": 6420
+    },
+    {
+      "id": "sonoma-coast",
+      "station": "Bodega Bay",
+      "requested": {
+        "lat": 38.3332,
+        "lon": -123.0481
+      },
+      "grid": {
+        "latitude": 38.5,
+        "longitude": -123,
+        "elevation_m": 11
+      },
+      "period": {
+        "start": "1991-01-01",
+        "end": "2020-12-31"
+      },
+      "model": "era5",
+      "units": "°C",
+      "annual_mean_c": 15.3,
+      "growing_season_mean_c": 18.1,
+      "growing_season_months": "Apr–Oct",
+      "sample_days": 10958,
+      "growing_season_days": 6420
+    },
+    {
+      "id": "sonoma-knights",
+      "station": "Calistoga (west)",
+      "requested": {
+        "lat": 38.62,
+        "lon": -122.66
+      },
+      "grid": {
+        "latitude": 38.5,
+        "longitude": -122.75,
+        "elevation_m": 146
+      },
+      "period": {
+        "start": "1991-01-01",
+        "end": "2020-12-31"
+      },
+      "model": "era5",
+      "units": "°C",
+      "annual_mean_c": 15.3,
+      "growing_season_mean_c": 18.6,
+      "growing_season_months": "Apr–Oct",
+      "sample_days": 10958,
+      "growing_season_days": 6420
+    },
+    {
+      "id": "sonoma-green-valley",
+      "station": "Sebastopol",
+      "requested": {
+        "lat": 38.4021,
+        "lon": -122.8258
+      },
+      "grid": {
+        "latitude": 38.5,
+        "longitude": -122.75,
+        "elevation_m": 39
+      },
+      "period": {
+        "start": "1991-01-01",
+        "end": "2020-12-31"
+      },
+      "model": "era5",
+      "units": "°C",
+      "annual_mean_c": 16,
+      "growing_season_mean_c": 19.3,
+      "growing_season_months": "Apr–Oct",
+      "sample_days": 10958,
+      "growing_season_days": 6420
+    },
+    {
+      "id": "sonoma-chalk-hill",
+      "station": "Windsor",
+      "requested": {
+        "lat": 38.5471,
+        "lon": -122.8164
+      },
+      "grid": {
+        "latitude": 38.5,
+        "longitude": -122.75,
+        "elevation_m": 37
+      },
+      "period": {
+        "start": "1991-01-01",
+        "end": "2020-12-31"
+      },
+      "model": "era5",
+      "units": "°C",
+      "annual_mean_c": 16,
+      "growing_season_mean_c": 19.3,
+      "growing_season_months": "Apr–Oct",
+      "sample_days": 10958,
+      "growing_season_days": 6420
+    },
+    {
+      "id": "california",
+      "station": "Napa",
+      "requested": {
+        "lat": 38.2975,
+        "lon": -122.2869
+      },
+      "grid": {
+        "latitude": 38.25,
+        "longitude": -122.25,
+        "elevation_m": 10
+      },
+      "period": {
+        "start": "1991-01-01",
+        "end": "2020-12-31"
+      },
+      "model": "era5",
+      "units": "°C",
+      "annual_mean_c": 16.1,
+      "growing_season_mean_c": 19.3,
+      "growing_season_months": "Apr–Oct",
+      "sample_days": 10958,
+      "growing_season_days": 6420
+    },
+    {
+      "id": "oregon",
+      "station": "McMinnville",
+      "requested": {
+        "lat": 45.2101,
+        "lon": -123.1987
+      },
+      "grid": {
+        "latitude": 45.25,
+        "longitude": -123.25,
+        "elevation_m": 46
+      },
+      "period": {
+        "start": "1991-01-01",
+        "end": "2020-12-31"
+      },
+      "model": "era5",
+      "units": "°C",
+      "annual_mean_c": 12.3,
+      "growing_season_mean_c": 16.1,
+      "growing_season_months": "Apr–Oct",
+      "sample_days": 10958,
+      "growing_season_days": 6420
+    },
+    {
+      "id": "washington",
+      "station": "Walla Walla",
+      "requested": {
+        "lat": 46.0646,
+        "lon": -118.343
+      },
+      "grid": {
+        "latitude": 46,
+        "longitude": -118.25,
+        "elevation_m": 288
+      },
+      "period": {
+        "start": "1991-01-01",
+        "end": "2020-12-31"
+      },
+      "model": "era5",
+      "units": "°C",
+      "annual_mean_c": 13.1,
+      "growing_season_mean_c": 18.4,
+      "growing_season_months": "Apr–Oct",
+      "sample_days": 10958,
+      "growing_season_days": 6420
+    },
+    {
+      "id": "new-york",
+      "station": "Geneva",
+      "requested": {
+        "lat": 42.8681,
+        "lon": -76.9856
+      },
+      "grid": {
+        "latitude": 42.75,
+        "longitude": -77,
+        "elevation_m": 150
+      },
+      "period": {
+        "start": "1991-01-01",
+        "end": "2020-12-31"
+      },
+      "model": "era5",
+      "units": "°C",
+      "annual_mean_c": 10.1,
+      "growing_season_mean_c": 16.7,
+      "growing_season_months": "Apr–Oct",
+      "sample_days": 10958,
+      "growing_season_days": 6420
+    },
+    {
+      "id": "virginia",
+      "station": "Charlottesville",
+      "requested": {
+        "lat": 38.0293,
+        "lon": -78.4767
+      },
+      "grid": {
+        "latitude": 38,
+        "longitude": -78.5,
+        "elevation_m": 151
+      },
+      "period": {
+        "start": "1991-01-01",
+        "end": "2020-12-31"
+      },
+      "model": "era5",
+      "units": "°C",
+      "annual_mean_c": 14.4,
+      "growing_season_mean_c": 20.4,
+      "growing_season_months": "Apr–Oct",
+      "sample_days": 10958,
+      "growing_season_days": 6420
+    },
+    {
+      "id": "texas",
+      "station": "Fredericksburg",
+      "requested": {
+        "lat": 30.2752,
+        "lon": -98.872
+      },
+      "grid": {
+        "latitude": 30.25,
+        "longitude": -98.75,
+        "elevation_m": 518
+      },
+      "period": {
+        "start": "1991-01-01",
+        "end": "2020-12-31"
+      },
+      "model": "era5",
+      "units": "°C",
+      "annual_mean_c": 19.1,
+      "growing_season_mean_c": 24.1,
+      "growing_season_months": "Apr–Oct",
+      "sample_days": 10958,
+      "growing_season_days": 6420
+    },
+    {
+      "id": "michigan",
+      "station": "Traverse City",
+      "requested": {
+        "lat": 44.7631,
+        "lon": -85.6206
+      },
+      "grid": {
+        "latitude": 44.75,
+        "longitude": -85.5,
+        "elevation_m": 182
+      },
+      "period": {
+        "start": "1991-01-01",
+        "end": "2020-12-31"
+      },
+      "model": "era5",
+      "units": "°C",
+      "annual_mean_c": 8.1,
+      "growing_season_mean_c": 14.8,
+      "growing_season_months": "Apr–Oct",
+      "sample_days": 10958,
+      "growing_season_days": 6420
+    },
+    {
+      "id": "pennsylvania",
+      "station": "Erie",
+      "requested": {
+        "lat": 42.1292,
+        "lon": -80.0851
+      },
+      "grid": {
+        "latitude": 42,
+        "longitude": -80,
+        "elevation_m": 198
+      },
+      "period": {
+        "start": "1991-01-01",
+        "end": "2020-12-31"
+      },
+      "model": "era5",
+      "units": "°C",
+      "annual_mean_c": 10.3,
+      "growing_season_mean_c": 16.9,
+      "growing_season_months": "Apr–Oct",
+      "sample_days": 10958,
+      "growing_season_days": 6420
+    },
+    {
+      "id": "new-mexico",
+      "station": "Truth or Consequences",
+      "requested": {
+        "lat": 33.1284,
+        "lon": -107.2528
+      },
+      "grid": {
+        "latitude": 33.25,
+        "longitude": -107.25,
+        "elevation_m": 1294
+      },
+      "period": {
+        "start": "1991-01-01",
+        "end": "2020-12-31"
+      },
+      "model": "era5",
+      "units": "°C",
+      "annual_mean_c": 18.1,
+      "growing_season_mean_c": 23.7,
+      "growing_season_months": "Apr–Oct",
+      "sample_days": 10958,
+      "growing_season_days": 6420
+    },
+    {
+      "id": "idaho",
+      "station": "Caldwell",
+      "requested": {
+        "lat": 43.6629,
+        "lon": -116.6874
+      },
+      "grid": {
+        "latitude": 43.75,
+        "longitude": -116.75,
+        "elevation_m": 724
+      },
+      "period": {
+        "start": "1991-01-01",
+        "end": "2020-12-31"
+      },
+      "model": "era5",
+      "units": "°C",
+      "annual_mean_c": 12.8,
+      "growing_season_mean_c": 19.2,
+      "growing_season_months": "Apr–Oct",
+      "sample_days": 10958,
+      "growing_season_days": 6420
+    }
+  ]
+}
